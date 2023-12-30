@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		        onload=function(){
+		            setInterval(go, 1000);
+		            };
+		            var x=2; //利用了全局变量来执行
+		            function go(){
+		                x--;
+		                if(x>0){
+		                    document.body.innerHTML=x; //每次设置的x的值都不一样了。
+		                }else{
+		                    location.href="www.wulangwang.top/";//修改链接这里
+		            }
+		        }
+		    </script>
+
+	</body>
+</html>
